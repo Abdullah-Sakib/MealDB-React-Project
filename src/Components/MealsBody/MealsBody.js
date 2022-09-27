@@ -3,13 +3,12 @@ import Meals from "../Meals/Meals";
 import "./MealsBody.css";
 
 const MealsBody = () => {
-  
+  const [keyword, setKeyword] = useState('')
   const handleSearch = () => {
     const input = document.getElementById('input').value;
-    keyword = keyword + input ;
+    setKeyword(input);
   }
   
-  let keyword = 'a';
 
   const [meals, setMeals] = useState([]);
   useEffect(() => {
