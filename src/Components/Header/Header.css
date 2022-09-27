@@ -1,0 +1,27 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #00ffff;
+  padding: 5px 50px ;
+}
+/* #00ffff */
+
+.brand{
+  font-size: 35px;
+  color: rgb(74, 53, 53);
+  font-weight: 700;
+}
+
+.links-container a{
+  text-decoration: none;
+  color: rgb(72, 49, 49);
+  font-size: 20px;
+  margin-left: 25px;
+  font-weight: 600;
+}
+
+.links-container a:hover{
+  color: white;
+}
